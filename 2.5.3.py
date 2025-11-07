@@ -26,6 +26,8 @@ def complex_number(comp_num):
         y = float(back[0])
     
     return x, y
+
+# Input the complex number in the format (n) + (m)i, where n and m are the coefficients of the real and imaginary parts respectively
 comp_num1, comp_num2 = '1 + 4i', '1-9i'
 
 a,b = complex_number(comp_num1)
@@ -42,3 +44,4 @@ if complex > 0:
 elif complex < 0:
     complex = -complex
     print(f"The product is {real} - {complex}i")
+
