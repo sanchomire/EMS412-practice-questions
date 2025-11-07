@@ -1,0 +1,5 @@
+bill = float(input("Bill amount: "))
+tip = float(input("Percentage tip: "))
+bill = bill *(1+tip/100)
+print("The bill amounts to: £", bill)
+print(type(tip))
